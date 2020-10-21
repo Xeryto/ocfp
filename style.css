@@ -1,0 +1,158 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+.nav-link:hover {
+	transition: all 0.4s;
+}
+
+.nav-link-collapse:after {
+	float: right;
+	content: '\f067';
+	font-family: 'FontAwesome';
+}
+
+.nav-link-show:after {
+	float: right;
+	content: '\f068';
+	font-family: 'FontAwesome';
+}
+
+.nav-item ul.nav-second-level {
+	padding-left: 0;
+}
+
+.nav-item ul.nav-second-level > .nav-item {
+	padding-left: 20px;
+}
+
+@media (min-width: 992px) {
+	.content-wrapper {
+		margin-left: 230px;
+	}
+
+	.footer {
+		width: calc(100% - 230px);
+		margin-left: 230px;
+	}
+}
+
+p,
+a {
+	font-size: 1.25rem;
+}
+
+h1 {
+	text-align: center;
+}
+
+::selection {
+	background: none;
+	color: blue;
+}
+
+.card-main {
+	background-color: #BDFBB0;
+	color: #343a40;
+	border-color: #9FCCC7;
+	border-top-right-radius: 2rem;
+	border-top-left-radius: 2rem;
+	border-width: 0.5rem;
+	text-align: center;
+	align-items: center;
+	padding: 5rem;
+}
+
+.card-shop {
+	background-color: #FABB96;
+	border-color: black;
+	border-radius: 2.5rem;
+	border-width: 0.5rem;
+	text-align: center;
+	align-items: center;
+}
+
+#decor {
+	text-decoration: none;
+}
+
+body {
+	padding-top: 5rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	background-color: #74AD68;
+}
+
+#foot {
+	text-align: center;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#black {
+	background-color: black;
+	color: white;
+}
+
+#purple {
+	background-color: purple;
+	color: white;
+}
+
+.card-img {
+	max-height: 10rem;
+	max-width: 10rem;
+	border-radius: 0.5rem;
+}
+
+.hidden {
+	display: none;
+}
+
+button {
+	min-height: 1.75rem;
+	min-width: 1.75rem;
+	text-decoration: none;
+	outline: none;
+	display: inline-block;
+	width: 10rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	border-radius: 2.5rem;
+	margin: 1rem 2rem;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.3rem;
+	color: #524f4e;
+	background: white;
+	box-shadow: 0 0.8rem 1.5rem rgba(0, 0, 0, .1);
+	transition: .3s;
+}
+
+button:hover {
+	background: #2EE59D;
+	box-shadow: 0 1.5rem 2.0rem rgba(46, 229, 157, .4);
+	color: white;
+	transform: translateY(-0.7rem);
+}
+
+.price-block {
+	background: url(images/b_price.png) no-repeat 0 0;
+	width: 95px;
+	height: 30px;
+	position: absolute;
+	right: -27px;
+	top: 4px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
